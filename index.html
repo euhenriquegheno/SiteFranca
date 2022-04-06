@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>França</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="bootstrap-5.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fonte-titulo cor-especial" href="#">França</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            <li><a class="nav-link active" aria-current="page" href="#">Início</a></li>
+            <li><a class="nav-link" href="#">Curiosidades</a></li>
+            <li><a class="nav-link" href="#">Cultura</a></li>
+            <li><a class="nav-link" href="#">Economia</a></li>
+            <li><a class="nav-link" href="#">Turismo</a></li>
+            <li><a class="nav-link" href="#">Localização</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div id="carouselExampleCaptions" class="carousel slide" data-interval="3000" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="src/img/img-header-1.jpg" class="d-block w-100 imagem-carrosel" alt="Primeira Imagem">
+          <div class="carousel-caption d-none d-md-block h-50">
+            <h1 class="fonte-titulo display-4">Paris | Capital da França</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="src/img/img-header-2.jpg" class="d-block w-100 imagem-carrosel" alt="...">
+          <div class="carousel-caption d-none d-md-block h-50">
+            <h1 class="fonte-titulo display-4">Museu de Louvre</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="src/img/img-header-3.jpg" class="d-block w-100 imagem-carrosel" alt="...">
+          <div class="carousel-caption d-none d-md-block h-50">
+            <h1 class="fonte-titulo display-4">Arco do Triunfo</h1>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <h2 class="text-center fonte-titulo cor-especial pt-5">Diversas caracteristicas e curiosidade sobre a França!</h2>
+    <p class="text-center text-secondary pb-5">Nossos prontos turisticos, bandeira, cultura, enconomia, entre outros...</p>
+
+    <section id="curiosidade" class="container-fluid bg-light">
+      <div class="row justify-content-center">  
+        <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+          <img src="src/img/bandeira-franca.png" class="card-img-top card-posicao-imagem" alt="bandeira da franca">
+          <div class="card-body">
+            <h5 class="card-title">Bandeira</h5>
+            <p class="card-text">A bandeira da França é composta por três faixas nas cores azul, branco e vermelho...</p>
+            <a class="btn botao-cor-especial" data-bs-toggle="modal" data-bs-target="#modal-bandeira" href="#">Detalhes</a>
+          </div>
+        </article>
+
+        <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+          <img src="src/img/hino-franca.jpg" class="card-img-top card-posicao-imagem" alt="hino da franca">
+          <div class="card-body">
+            <h5 class="card-title">Hino</h5>
+            <p class="card-text">O hino oficial da França recebe o nome de Marselhesa. É originalmente um canto...</p>
+            <a class="btn botao-cor-especial" data-bs-toggle="modal" data-bs-target="#modal-hino" href="#">Detalhes</a>
+          </div>
+        </article>
+
+        <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+          <img src="src/img/img-franca.jpg" class="card-img-top card-posicao-imagem" alt="dados gerais da franca">
+          <div class="card-body">
+            <h5 class="card-title">Dados Gerais</h5>
+            <p class="card-text">Capital: Paris. Extensão territorial: 549.190 km². Habitantes: 64.395.345 habitantes...</p>
+            <a class="btn botao-cor-especial" data-bs-toggle="modal" data-bs-target="#modal-dados-gerais" href="#">Detalhes</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="cultura">
+      <h2 class="fonte-titulo titulo-cultura">Cultura</h2>
+      <div class="texto-cultura">
+        <p class="paragrafo-inicial-texto-cultura">Durante grande parte de sua história, a França desempenhou um papel central na cultura europeia. seus estilos artístico, culinário e de vestuário influenciaram grande parte das nações ao redor do mundo.<br>
+          <ul class="lista-cultura">
+            <li class="itens"> <strong>Língua francesa</strong></li>
+            <p> O francês, a língua oficial da França, tem sua origem no latim, no grego e em outras línguas vernáculas. Ela cresceu ainda mais graças à criação da Academia Francesa, que padronizou a gramática.</p>
+            <li class="itens"> <strong>Música</strong></li>
+            <p> A canção francesa é inspirada na poesia e na literatura, de modo que Baudelaire, Rimbaud e Verlaine continuam sendo fontes de inspiração para muitos. A música clássica conheceu artistas como Berlioz, Offenbac e Débussy.</p>
+            <li class="itens"> <strong>Moda e alta costura</strong></li>
+            <p>O termo alta costura está associado à moda francesa e significa roupas mais sofisticadas feitas à mão ou sob encomenda.</p>
+            <li class="itens"> <strong>Gastronomia</strong></li>
+            <p>Cada região tem suas especialidades, mas alguns dos pratos mais famosos incluem vinho e queijo. A França também tem muitos chefs prestigiosos, cujo mais famoso é provavelmente Auguste Escoffier. Os pratos franceses mais clássicos são o boeuf bourguignon e coq au vin.</p>
+          </ul>
+      </div>
+      <div class="imagens-cultura container-fluid">
+        <div class="row justify-content-center"> 
+          <article class="card card-largura p-0 m-4 col-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="src/img/img-cultura-1.jpg" class="card-img-top card-posicao-imagem" alt="">
+              <div class="card-body">
+                <p class="card-text"><strong>MODA:</strong> Coco Chanel; Louis Vuitton; Christian Dior</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="card card-largura p-0 m-4 col-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="src/img/img-cultura-2.jpg" class="card-img-top card-posicao-imagem" alt="">
+              <div class="card-body">
+                <p class="card-text"><strong>MÚSICA:</strong> Desireless; Édith Piaf; Gainsbourg</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="card card-largura p-0 m-4 col-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="src/img/img-cultura-3.jpg" class="card-img-top card-posicao-imagem" alt="">
+              <div class="card-body">
+                <p class="card-text"><strong>ARTE:</strong> Claude Monet; Van Gogh; Renoir</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="economia">
+      <h2 class="fonte-titulo titulo-economia">Economia</h2>
+        <ul class="lista-economia">
+          <li class="itens"> A economia francesa fica entre as cinco primeiras a nível mundial, ESTANDO entre os três países mais industrializados da Europa.</li>
+          <li class="itens"> O país, que é o maior produtor agrícola da União Europeia, produz principalmente carne, milho, trigo e vinho, SENDO, TAMBÉM, O MAIOR PRODUTOR DE ENERGIA NUCLEAR DO MUNDO E UM DESTAQUE NO SETOR DA INDÚSTRIA DE AUTOMÓVEIS E ELETRÔNICA.</li>
+          <li class="itens"> O turismo possui enorme peso na economia francesa, uma vez que esse é um dos países mais visitados do mundo, dispondo de atrativos que vão desde os museus e monumentos históricos até as paisagens naturais mediterrâneas.</li>
+          <li class="itens"> A França é também um importante centro cultural mundial, com enorme produção literária, cinematográfica e musical, além de uma grande variedade de museus, teatros e casas de show. Sua gastronomia é mundialmente reconhecida.</li>
+        </ul> 
+    </section>
+
+    <section class="turismo bg-light">
+      <h2 class="fonte-titulo titulo-turismo">Turismo</h2>
+      <div class="imagens-turismo container-fluid">
+        <div class="row justify-content-center"> 
+          <article class="card card-largura p-0 m-4 col-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="src/img/museu-louvre-interior.jpg" class="card-img-top card-posicao-imagem" alt="museu do louvre interior">
+              <div class="card-body">
+                <p class="card-text"><strong>Museu do Louvre</strong> Abriga mais de 35 mil obras, INCLUINDO a Mona Lisa, de Leonardo da Vinci.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="card card-largura p-0 m-4 col-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="src/img/rio-sena.jpg" class="card-img-top card-posicao-imagem" alt="rio sena">
+              <div class="card-body">
+                <p class="card-text"><strong>Rio Sena:</strong> O Sena representa mais que um rio exaltado na tradição romântica. Devido a seu leito pouco acidentado, é uma importante via de transporte que serve à capital da França há séculos.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="card card-largura p-0 m-4 col-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="src/img/arco-do-triunfo.jpg" class="card-img-top card-posicao-imagem" alt="arco do triunfo">
+              <div class="card-body">
+                <p class="card-text"><strong>Arco do Triunfo:</strong> De onde é possível ver toda Paris. datado de 1806. O monumento é uma homenagem ao Exército Imperial e foi construído por ordem de Napoleão Bonaparte</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="card card-largura p-0 m-4 col-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="src/img/catedral-notre-dame-exterior.jpg" class="card-img-top card-posicao-imagem" alt="catedral de notre dame">
+              <div class="card-body">
+                <p class="card-text"><strong>Catedral de Notre-Dame:</strong> Estilo gótico, 1163; onde napoleão bonaparte foi coroado imperador, em 1804</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="card card-largura p-0 m-4 col-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="src/img/torre-eiffel.jpg" class="card-img-top card-posicao-imagem" alt="torre eiffel">
+              <div class="card-body">
+                <p class="card-text"><strong>Torre Eiffel:</strong> Projetada por Gustave Eiffel, sendo inaugurada em 1889 com 324m de altura</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="localizacao">
+      <h2 class="fonte-titulo titulo-localizacao">Localização</h2>
+      <p class="texto-localizacao">A França é dividida em 18 regiões e 96 municípios ou departamentos. Antes da mudança, em 2016, as regiões metropolitanas eram 22. Passaram a ser 13:</p>
+      <ul class="lista-economia">
+        <li class="itens"> Guadalupe, guiaba francesa, martinica, reunião e mayotte são regiões ultramarinas.</li>
+        <li class="itens"> A capital Paris é a maior cidade da França.</li>
+        <li class="itens"> Lille, Lyon, Marselha e Toulouse são outras cidades importantes.</li>
+      </ul>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11379667.893494574!2d-6.924094218123403!3d45.8665231138562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54a02933785731%3A0x6bfd3f96c747d9f7!2zRnJhbsOnYQ!5e0!3m2!1spt-BR!2sbr!4v1649278830481!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa-franca"></iframe> 
+    </section>
+
+  </main>
+
+  <footer class="bg-secondary p-3">
+    <p class="text-light m-0 text-center">contato: <a class="text-light" href="mailto:email@frutafruto.com.br">email@frutafruto.com.br</a></p>  
+  </footer>
+
+<!-- Modal -->
+  <div class="modal fade" id="modal-bandeira" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <dialog class="modal-content">
+        <header class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Bandeira</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </header>
+        <main class="modal-body">
+          <form>
+            <p>A bandeira da França é composta por três faixas nas cores azul, branco e vermelho:<br>
+              <strong>Branco:</strong> Realeza.<br>
+              <strong>Azul e Vermelho:</strong> Cores da revolução; União entre o povo e a monarquia.<br>
+              Com o retorno de Luís XVI ao trono da França, a bandeira tricolor foi substituída pela antiga bandeira borbônica.<br>
+              A Bandeira tricolor foi recuperada na Revolução de Junho (1830), quando os insurgentes a puseram nas barricadas enquanto lutavam contra o Rei Carlos X.
+              Em 1848, partidários de uma república socialista queriam mudar as cores, substituindo-as por uma bandeira inteiramente vermelha.
+              O poeta Alphonse Lamartine os convenceu que a bandeira tricolor carregava histórias e lutas, e não podia ser mudada.
+            </p>
+              <div class="imagens-cultura container-fluid">
+                <div class="row justify-content-center"> 
+                    <h5>Bandeira Tricolor</h5>
+                      <img src="src/img/bandeira-franca.png" class="card-largura" alt="bandeira da franca" style="border-radius:  35px;">
+                    <h5 style="margin-top: 20px;">Bandeira Borbonica</h5>
+                      <img src="src/img/bandeira-borbonica.png" class="card-largura" alt="bandeira da franca" style="border-radius:  35px;">
+                </div>
+              </div>
+          </form>
+        </main>
+        <footer class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </footer>
+      </dialog>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-hino" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <dialog class="modal-content">
+        <header class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Hino</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </header>
+        <main class="modal-body">
+          <form>
+            <p>O hino oficial da França recebe o nome de Marselhesa. É originalmente um canto revolucionário da autoria de Claude-Joseph Rouget de Lisle, capitão do exército francês, que foi composto em 1792.<br>
+              O objetivo do canto era animar os soldados a lutar pelo país por ocasião da Revolução Francesa, conforme mostra frase inicial da composição musical:<br>
+              
+              <strong><i>"Avante, filhos da Pátria,
+              O dia da Glória chegou."</i></strong>
+            </p>
+              <div class="imagens-cultura container-fluid">
+                <div class="row justify-content-center"> 
+                      <img src="src/img/hino-franca.jpg" class="card-largura" alt="hino da franca" style="border-radius:  15px;">
+                </div>
+              </div>
+          </form>
+        </main>
+        <footer class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </footer>
+      </dialog>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-dados-gerais" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <dialog class="modal-content">
+        <header class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Dados Gerais</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </header>
+        <main class="modal-body">
+          <form>
+            <ul class="lista-dados-gerais">
+              <li class="itens"> <strong>Capital:</strong> Paris</li>
+              <li class="itens"> <strong>Extensão Territorial:</strong> 549.190 Km²</li>
+              <li class="itens"> <strong>Habitantes:</strong> 64.395.345 Habitantes(Dados de 2015)</li>
+              <li class="itens"> <strong>Clima:</strong> Principalmente Temperado</li>
+              <li class="itens"> <strong>Idioma:</strong> Francês</li>
+              <li class="itens"> <strong>Religião:</strong> Catolicismo</li>
+              <li class="itens"> <strong>Moeda:</strong> Euro</li>
+              <li class="itens"> <strong>Sistema do Governo:</strong> República Democrática Semipresidencialista</li>
+              <li class="itens"> <strong>Presidente:</strong> Emmanuel Macron</li>
+              <li class="itens"> <strong>Primeiro Ministro:</strong> Jean Castex</li>
+            </ul>
+              <div class="imagens-cultura container-fluid">
+                <div class="row justify-content-center"> 
+                      <img src="src/img/img-franca.jpg" class="card-largura" alt="hino da franca" style="border-radius:  15px;">
+                </div>
+              </div>
+          </form>
+        </main>
+        <footer class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </footer>
+      </dialog>
+    </div>
+  </div>
+
+  <script src="bootstrap-5.1.3/jquery.js"></script>
+  <script src="bootstrap-5.1.3/js/bootstrap.min.js"></script>
+  <script src=""></script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+.card-largura{
+    max-width: 18rem;
+}
+
+.card-largura-personalizada{
+    max-width: 50rem;
+}
+
+.imagem-carrosel{
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 700px;    
+}
+
+.fonte-titulo{
+    font-family: 'Pacifico', cursive;
+}
+
+/* .cor-especial{ */
+    /* color: darkred!important; */
+/* } */
+
+.botao-cor-especial{
+    background-color: black;
+    color: white;
+}
+
+.botao-cor-especial:hover{
+    color: white;
+}
+
+.borda-cor-especial{
+    border-color: black;
+}
+
+.card-posicao-imagem{
+    object-fit: cover;
+    height: 200px;
+}
+
+.titulo-cultura{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+.itens:before{
+    content: "➜";
+}
+
+ul{
+    list-style: none;
+}
+
+.paragrafo-inicial-texto-cultura{
+    text-align: justify;
+    margin: 0 100px 40px 100px;    
+}
+
+.lista-cultura{
+    text-align: justify;
+    margin: 0 100px 40px 70px;  
+}
+
+.titulo-economia{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.lista-economia{
+    text-align: justify;
+    margin: 0 100px 40px 70px;  
+}
+
+.titulo-turismo{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.titulo-localizacao{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.texto-localizacao{
+    text-align: justify;
+    margin: 0 100px 40px 100px;  
+}
