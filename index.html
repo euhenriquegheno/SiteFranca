@@ -23,11 +23,11 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <ul class="navbar-nav">
             <li><a class="nav-link active" aria-current="page" href="#">Início</a></li>
-            <li><a class="nav-link" href="#">Curiosidades</a></li>
-            <li><a class="nav-link" href="#">Cultura</a></li>
-            <li><a class="nav-link" href="#">Economia</a></li>
-            <li><a class="nav-link" href="#">Turismo</a></li>
-            <li><a class="nav-link" href="#">Localização</a></li>
+            <li><a class="nav-link" href="#curiosidade">Curiosidades</a></li>
+            <li><a class="nav-link" href="#cultura">Cultura</a></li>
+            <li><a class="nav-link" href="#economia">Economia</a></li>
+            <li><a class="nav-link" href="#turismo">Turismo</a></li>
+            <li><a class="nav-link" href="#localizacao">Localização</a></li>
           </ul>
         </div>
       </div>
@@ -71,8 +71,10 @@
       </button>
     </div>
 
-    <h2 class="text-center fonte-titulo cor-especial pt-5">Diversas caracteristicas e curiosidade sobre a França!</h2>
-    <p class="text-center text-secondary pb-5">Nossos prontos turisticos, bandeira, cultura, enconomia, entre outros...</p>
+    <div class="texto">
+      <h2 class="text-center fonte-titulo cor-especial pt-5">Diversas caracteristicas e curiosidade sobre a França!</h2>
+      <p class="text-center text-secondary pb-5">Nossos pontos turisticos, bandeira, cultura, enconomia, entre outros...</p>
+    </div>
 
     <section id="curiosidade" class="container-fluid bg-light">
       <div class="row justify-content-center">  
@@ -152,7 +154,7 @@
       </div>
     </section>
 
-    <section class="economia">
+    <section id="economia">
       <h2 class="fonte-titulo titulo-economia">Economia</h2>
         <ul class="lista-economia">
           <li class="itens"> A economia francesa fica entre as cinco primeiras a nível mundial, ESTANDO entre os três países mais industrializados da Europa.</li>
@@ -162,7 +164,7 @@
         </ul> 
     </section>
 
-    <section class="turismo bg-light">
+    <section id="turismo" class="bg-light">
       <h2 class="fonte-titulo titulo-turismo">Turismo</h2>
       <div class="imagens-turismo container-fluid">
         <div class="row justify-content-center"> 
@@ -214,16 +216,16 @@
       </div>
     </section>
 
-    <section class="localizacao">
+    <section id="localizacao">
       <h2 class="fonte-titulo titulo-localizacao">Localização</h2>
       <p class="texto-localizacao">A França é dividida em 18 regiões e 96 municípios ou departamentos. Antes da mudança, em 2016, as regiões metropolitanas eram 22. Passaram a ser 13:</p>
-      <ul class="lista-economia">
+      <ul class="lista-localizacao" style="margin: 0 100px 40px 70px;">
         <li class="itens"> Guadalupe, guiaba francesa, martinica, reunião e mayotte são regiões ultramarinas.</li>
         <li class="itens"> A capital Paris é a maior cidade da França.</li>
         <li class="itens"> Lille, Lyon, Marselha e Toulouse são outras cidades importantes.</li>
       </ul>
       <div class="mapa-franca" style="text-align: center;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11379667.893494574!2d-6.924094218123403!3d45.8665231138562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54a02933785731%3A0x6bfd3f96c747d9f7!2zRnJhbsOnYQ!5e0!3m2!1spt-BR!2sbr!4v1649278830481!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="col-12 col-md-4"></iframe> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11379667.893494574!2d-6.924094218123403!3d45.8665231138562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54a02933785731%3A0x6bfd3f96c747d9f7!2zRnJhbsOnYQ!5e0!3m2!1spt-BR!2sbr!4v1649278830481!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0; border-radius: 20px; margin-bottom: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="col-12 col-md-4"></iframe> 
       </div>
     </section>
 
@@ -245,8 +247,8 @@
           <form>
             <p>A bandeira da França é composta por três faixas nas cores azul, branco e vermelho:<br>
               <strong>Branco:</strong> Realeza.<br>
-              <strong>Azul e Vermelho:</strong> Cores da revolução; União entre o povo e a monarquia.<br>
-              Com o retorno de Luís XVI ao trono da França, a bandeira tricolor foi substituída pela antiga bandeira borbônica.<br>
+              <strong>Azul e Vermelho:</strong> Cores da revolução; União entre o povo e a monarquia.<br></p>
+              <p>Com o retorno de Luís XVI ao trono da França, a bandeira tricolor foi substituída pela antiga bandeira borbônica.<br>
               A Bandeira tricolor foi recuperada na Revolução de Junho (1830), quando os insurgentes a puseram nas barricadas enquanto lutavam contra o Rei Carlos X.
               Em 1848, partidários de uma república socialista queriam mudar as cores, substituindo-as por uma bandeira inteiramente vermelha.
               O poeta Alphonse Lamartine os convenceu que a bandeira tricolor carregava histórias e lutas, e não podia ser mudada.
@@ -285,7 +287,7 @@
             </p>
               <div class="imagens-cultura container-fluid">
                 <div class="row justify-content-center"> 
-                      <img src="src/img/hino-franca.jpg" class="card-largura" alt="hino da franca" style="border-radius:  15px;">
+                      <iframe class="card-largura" width="560" height="200" src="https://www.youtube.com/embed/YLi5A7BiBVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 20px;"></iframe>
                 </div>
               </div>
           </form>
